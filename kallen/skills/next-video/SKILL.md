@@ -1,0 +1,8 @@
+---
+name: next-video
+description: A ranked recommendation for your next video, grounded in outliers, written by your own AI.
+argument-hint: [topic] [tracked]
+---
+Help me decide what to make next. I am the client: call Kallen's get_idea_brief with mode=client-ideas (forCreator defaults to my active profile; if I have none, ask for my handle). Draft your ideas, run check_idea_novelty on them against my archive, and drop or rework any repeat. Give me three ranked ideas. For each: the hook line, the format and beat structure, the reference behind it and what you borrowed, and what I need to film or confirm. You write anything new: use what you already know about me, my niche, audience, offer and voice, from this conversation, your memory and my files. Kallen keeps only the website and brand book I saved on my profile: read them first with get_brand_context. Ask me only for what you cannot reasonably infer. Keep the structure that works, but write fresh copy and never reuse a source's words. Cite the Kallen video IDs and links behind each suggestion, and say plainly when the data is thin. Show each example as a card: the creator, the key metrics with the score, the hook line and the source link. If you can make an artifact, a clean visual page works well (Kallen style: near-black #0d0d0c background, cream #f1f1d5 text, coral #f0634a accents, Unbounded for headings). Otherwise use a tidy list.
+
+Arguments: $ARGUMENTS. If they include the word "tracked", use scope=tracked (my own and reference accounts in Kallen) instead of scope=all. Treat any other words as the topic to focus on.

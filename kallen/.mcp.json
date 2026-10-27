@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "kallen": {
+      "type": "http",
+      "url": "https://kallen.ai/mcp"
+    }
+  }
+}

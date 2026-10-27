@@ -1,0 +1,16 @@
+{
+  "name": "kallen",
+  "version": "0.1.0",
+  "description": "Short-form video strategy from Kallen's analyzed outliers: hooks, formats, topics, creator recaps, next-video ideas and remixes, written by your own AI.",
+  "author": {
+    "name": "Content Forge",
+    "url": "https://kallen.ai"
+  },
+  "homepage": "https://kallen.ai",
+  "license": "MIT",
+  "keywords": [
+    "short-form video",
+    "hooks",
+    "content strategy"
+  ]
+}
